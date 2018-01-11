@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronome.Main", "src\Metronome.Main\Metronome.Main.csproj", "{0461DF84-D036-48DC-8F8B-EAEDAA4FC4EB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronome.Actors.Tests", "src\Metronome.Actors.Tests\Metronome.Actors.Tests.csproj", "{AEA38CFF-6058-4049-96BC-88FE6EF1E51C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronome.Actors", "src\Metronome.Actors\Metronome.Actors.csproj", "{08FC5CFD-83FF-41F8-AC98-B354D0525CE7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D7FF0DF8-84EA-402C-B799-56A0E44628A5}"
@@ -14,6 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3D75588F-B42B-431F-9575-1BB807B88B5E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronome.Core", "src\Metronome.Core\Metronome.Core.csproj", "{C9F97A5A-49FD-4BD6-A107-C16E5F4F978A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metronome.Actors.Tests", "tests\Metronome.Actors.Tests\Metronome.Actors.Tests.csproj", "{890A76FC-D631-483C-A313-5DB010FA356B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{0461DF84-D036-48DC-8F8B-EAEDAA4FC4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0461DF84-D036-48DC-8F8B-EAEDAA4FC4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0461DF84-D036-48DC-8F8B-EAEDAA4FC4EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEA38CFF-6058-4049-96BC-88FE6EF1E51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEA38CFF-6058-4049-96BC-88FE6EF1E51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEA38CFF-6058-4049-96BC-88FE6EF1E51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEA38CFF-6058-4049-96BC-88FE6EF1E51C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{08FC5CFD-83FF-41F8-AC98-B354D0525CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08FC5CFD-83FF-41F8-AC98-B354D0525CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08FC5CFD-83FF-41F8-AC98-B354D0525CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,15 +33,19 @@ Global
 		{C9F97A5A-49FD-4BD6-A107-C16E5F4F978A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F97A5A-49FD-4BD6-A107-C16E5F4F978A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F97A5A-49FD-4BD6-A107-C16E5F4F978A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890A76FC-D631-483C-A313-5DB010FA356B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890A76FC-D631-483C-A313-5DB010FA356B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890A76FC-D631-483C-A313-5DB010FA356B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890A76FC-D631-483C-A313-5DB010FA356B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0461DF84-D036-48DC-8F8B-EAEDAA4FC4EB} = {D7FF0DF8-84EA-402C-B799-56A0E44628A5}
-		{AEA38CFF-6058-4049-96BC-88FE6EF1E51C} = {3D75588F-B42B-431F-9575-1BB807B88B5E}
 		{08FC5CFD-83FF-41F8-AC98-B354D0525CE7} = {D7FF0DF8-84EA-402C-B799-56A0E44628A5}
 		{C9F97A5A-49FD-4BD6-A107-C16E5F4F978A} = {D7FF0DF8-84EA-402C-B799-56A0E44628A5}
+		{890A76FC-D631-483C-A313-5DB010FA356B} = {3D75588F-B42B-431F-9575-1BB807B88B5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F87FE660-0782-427B-B00E-FA9A4FB73029}
